@@ -63,7 +63,7 @@ const Content = () => {
           <div className="sm:w-6/12 w-full mt-9 md:text-3xl text-lg font-bold">
             <p>
               <span className="text-[30px] md:text-[50px] ">{data.title}</span>
-              <span className="gradient">{data.textDescription}</span>
+              <span className="gradient">{data.textGradient}</span>
               {data.textDescription}
             </p>
           </div>
