@@ -1,6 +1,6 @@
 import { Image } from "@nextui-org/react";
 import { MainContent } from "./components/MainContent";
-import  Content  from "./components/Content";
+import  Content  from "./components/Contents";
 
 export default function Home() {
   return (
