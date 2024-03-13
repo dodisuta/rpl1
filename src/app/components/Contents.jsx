@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Content = async () => {
+const Content = () => {
   const contentData = [
     {
       image: "/images/kelas.jpeg",
@@ -10,37 +10,37 @@ const Content = async () => {
       textDescription: "kesempatan untuk membuatnya lebih baik dari pada kemarin",
     },
     {
-      image: "/images/kelas/foto1.jpeg",
+      image: "/images/foto1.jpeg",
       title: "Jangan,",
       textGradient: "tunggu kesempurnaan mulailah dari sekarang, dengan apa yang Anda miliki",
       textDescription: "Kesempurnaan akan datang dengan waktu dan dedikasi.",
     },
     {
-      image: "/images/kelas/foto2.jpeg",
+      image: "/images/foto2.jpeg",
       title: "Jangan meragukan apakah diri,",
       textGradient: "kalian itu pantas untuk impian yang kalian impikan, tapi kalian justru tanya terbalik apakah mimpi yang kalian mimpikan itu",
       textDescription: "justru pantas untuk kalian perjuangkan? pilih lain mimpi yang layak di perjuangkan",
     },
     {
-      image: "/images/kelas/foto13.jpeg",
+      image: "/images/foto13.jpeg",
       title: "Dalam dunia,",
       textGradient: "dengan kuat, dan jangan pernah ragu-ragu untuk bermimpi besar. Dunia membe",
       textDescription: "rikan jalan bagi mereka yang berani bermimpi dan bertindak.",
     },
     {
-      image: "/images/kelas/foto4.jpeg",
+      image: "/images/foto4.jpeg",
       title: "Dalam dunia",
       textGradient: "teknologi anda di tuntut untuk terus belajar, dimana ketika anda",
       textDescription: "berhenti belajar, disitulah kekalahan anda dimulai.",
     },
     {
-      image: "/images/kelas/foto6.jpeg",
+      image: "/images/foto6.jpeg",
       title: "Dunia",
       textGradient: "tidak dirubah oleh orang pintar yang takut, dunia di rub",
       textDescription: "ah oleh orang bodoh yang rela melakukan apapun.",
     },
     {
-      image: "/images/kelas/foto12.jpeg",
+      image: "/images/foto12.jpeg",
       title: "Kenapa harus sukses di usia muda?",
       textGradient: "tujuanya cuma satu, bikin bangga dan bahagia kedua orang tua selama mereka",
       textDescription: "masih ada disini. Itu privilege sesungguhnya!",
