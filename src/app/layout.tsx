@@ -15,7 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="no-visible-scrollbar dark">
+      <head>
+        <link rel="shortcut icon" href="/images/logo.png" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
