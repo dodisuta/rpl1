@@ -1,6 +1,7 @@
 import { Image } from "@nextui-org/react";
 import { MainContent } from "./components/MainContent";
 import  Content  from "./components/Contents";
+import Tab from "./components/Tab";
 
 export default function Home() {
   return (
@@ -16,6 +17,10 @@ export default function Home() {
       <div className="w-full mt-12 h-auto bg-black bg-grid-white/[0.2] flex-col  relative flex items-center justify-center">
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
         <Content />
+      </div>
+      <div className="w-full mt-12 h-auto bg-black bg-grid-white/[0.2] flex-col  relative flex items-center justify-center">
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black  [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        <Tab />
       </div>
     </div>
   );
