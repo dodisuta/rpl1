@@ -10,13 +10,13 @@ const Content = () => {
       textDescription: "kesempatan untuk membuatnya lebih baik dari pada kemarin",
     },
     {
-      image: "/images/foto1.jpeg",
+      image: "/images/foto1.jpg",
       title: "Jangan,",
       textGradient: "tunggu kesempurnaan mulailah dari sekarang, dengan apa yang Anda miliki",
       textDescription: "Kesempurnaan akan datang dengan waktu dan dedikasi.",
     },
     {
-      image: "/images/foto2.jpeg",
+      image: "/images/foto2.jpg",
       title: "Jangan meragukan apakah diri,",
       textGradient: "kalian itu pantas untuk impian yang kalian impikan, tapi kalian justru tanya terbalik apakah mimpi yang kalian mimpikan itu",
       textDescription: "justru pantas untuk kalian perjuangkan? pilih lain mimpi yang layak di perjuangkan",
