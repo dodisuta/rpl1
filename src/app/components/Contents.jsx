@@ -16,7 +16,7 @@ const Contents = () => {
     {
       image: "/images/foto2.jpg",
       textGradient: "Jangan meragukan apakah diri kalian itu pantas untuk impian yang kalian impikan, tapi kalian justru tanya terbalik apakah mimpi",
-      textDescription: " yang kalian mimpikan itu justru pantas untuk kalian perjuangkan? pilih lain mimpi yang layak di perjuangkan",
+      textDescription: " yang kalian mimpikan itu justru pantas untuk kalian perjuangkan? pilih lah mimpi yang layak di perjuangkan",
     },
     {
       image: "/images/foto13.jpeg",
@@ -31,7 +31,7 @@ const Contents = () => {
     {
       image: "/images/foto6.jpeg",
       textGradient: "Dunia tidak dirubah oleh orang pintar yang takut, dunia di",
-      textDescription: " rubaholeh orang bodoh yang rela melakukan apapun.",
+      textDescription: " ruba holeh orang bodoh yang rela melakukan apapun.",
     },
     {
       image: "/images/foto12.jpg",
