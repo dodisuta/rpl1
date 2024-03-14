@@ -47,7 +47,7 @@ const SearchResult = ({ results }) => {
     <>
       {limitedResults.map((data) => (
         <BackgroundGradient key={data.id} className="rounded-[22px] max-w-sm  relative bg-zinc-900">
-          <Image src={data.image} alt="jordans" height="400" width="400" className=" object-cover rounded-[22px] h-[300px] w-full" />
+          <Image loading="lazy" src={data.image} alt="jordans" height="400" width="400" className=" object-cover rounded-[22px] h-[300px] w-full" />
           <div className="absolute w-full bottom-0 flex justify-between p-2">
             <Card isFooterBlurred className="border-none w-[350px] h-[50px] bg-transparent md:w-[400px] md:h-[50px]">
               <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">

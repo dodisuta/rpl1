@@ -58,7 +58,7 @@ const Content = () => {
       {contentData.map((data, index) => (
         <div key={index} className="flex md:justify-between mt-12 justify-center md:flex-row flex-col w-full items-center">
           <div className="sm:w-6/12 w-full">
-            <Image width={1000} height={1000} alt="..." src={data.image} className="w-[500px] h-[400px] object-cover rounded-sm" />
+            <Image loading="lazy" width={1000} height={1000} alt="..." src={data.image} className="w-[500px] h-[400px] object-cover rounded-sm" />
           </div>
           <div className="sm:w-6/12 w-full mt-9 md:text-3xl text-lg font-bold">
             <p>
