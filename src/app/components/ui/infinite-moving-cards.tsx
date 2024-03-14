@@ -1,4 +1,5 @@
 "use client";
+
 import { cn } from "../utils/cn";
 import React, { useEffect, useState } from "react";
 
@@ -71,7 +72,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20 sm:max-w-xl md:max-w-3xl lg:max-w-7xl max-w-[370px] overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
