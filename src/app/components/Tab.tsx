@@ -10,7 +10,7 @@ const Tab = () => {
       value: "pelajaran",
       content: (
         <div className="w-full h-full text-xl md:text-4xl font-bold text-white ">
-          <CardPiket />
+          <CardPelajaran />
         </div>
       ),
     },
@@ -19,14 +19,14 @@ const Tab = () => {
       value: "piket",
       content: (
         <div className="w-full h-full text-xl md:text-4xl font-bold text-white ">
-          <CardPelajaran />
+          <CardPiket />
         </div>
       ),
     },
   ];
 
   return (
-    <div className="h-screen [perspective:1000px]  flex flex-col max-w-5xl sm:mx-auto w-full items-center justify-center">
+    <div className="h-screen py-5 [perspective:1000px]  flex flex-col max-w-5xl sm:mx-auto w-full items-center justify-center">
       <Tabs tabs={tabs} />
     </div>
   );

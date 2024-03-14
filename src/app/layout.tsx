@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Mulish } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const mulish = Mulish({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "RPL 1",
@@ -19,7 +20,10 @@ export default function RootLayout({
       <head>
         <link rel="shortcut icon" href="/images/logo.png" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={mulish.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
